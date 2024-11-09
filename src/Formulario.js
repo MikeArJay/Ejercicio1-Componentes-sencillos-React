@@ -16,11 +16,11 @@ function Formulario() {
         <>
         <form onSubmit={HandleSubmit}>
             <label>Nombre 
-            <input type = "text" value={nombre} on onChange={handleChange}></input>
+            <input type = "text" value={nombre} onChange={handleChange}></input>
             </label>
             <button type="submit">Enviar</button>
         </form>
-        {mostratMensaje && <p>!Hola, {nombre}!</p>}
+        {mostratMensaje && <p>¡Hola, {nombre}!</p>}
         </>
     );
 }
