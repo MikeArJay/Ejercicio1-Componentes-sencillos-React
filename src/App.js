@@ -1,10 +1,12 @@
 import './App.css';
 import Contador from './Contador';
+import Formulario from './Formulario';
 
 function App() {
   return (
     <div className="App">
-    <Contador/>
+      <Formulario/>
+      <Contador/>
     </div>
   );
 }
