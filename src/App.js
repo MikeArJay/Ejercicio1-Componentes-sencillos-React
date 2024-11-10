@@ -1,7 +1,8 @@
 import './App.css';
 import Contador from './Componentes/Contador';
 import Formulario from './Componentes/Formulario';
-import ToggleVisibilidad from './ToggleVisibilidad';
+import ToggleVisibilidad from './Componentes/ToggleVisibilidad';
+import Todo from './Componentes/Todo';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Contador/>
       <br/><br/>
       <ToggleVisibilidad/>
+      <Todo/>
+      
      
     </div>
   );
