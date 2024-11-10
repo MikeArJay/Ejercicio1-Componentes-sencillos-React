@@ -1,6 +1,6 @@
 import './App.css';
-import Contador from './Contador';
-import Formulario from './Formulario';
+import Contador from './Componentes/Contador';
+import Formulario from './Componentes/Formulario';
 import ToggleVisibilidad from './ToggleVisibilidad';
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
       <br/>
       <Contador/>
       <br/><br/>
-      
       <ToggleVisibilidad/>
      
     </div>
