@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const PRODUCTOS = ["Mini pc intel n100", "Poco x5 pro", "Mac mini", "Lapiz", "Bolígrafo"]
+const PRODUCTOS = ["Mini pc intel n100", "Poco x5 pro", "Mac mini", "Lápiz", "Bolígrafo"]
 function Buscador() {
 
     const [listaFiltrada, setListaFiltrada] = useState(PRODUCTOS);
