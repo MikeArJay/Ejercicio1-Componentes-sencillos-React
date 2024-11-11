@@ -47,6 +47,12 @@ button:hover {
 
 .card h2 {
   margin-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 .card ul {
@@ -60,4 +66,8 @@ button:hover {
   margin-bottom: 10px;
   padding-left: 90px;
 
+}
+
+.card input{
+  margin-bottom: 10px;
 }
